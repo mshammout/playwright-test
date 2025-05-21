@@ -37,8 +37,6 @@ jobs:
 
       - name: Upload Allure Report Artifact
         uses: github.com/actions/upload-artifact@v3.1.3
-
-
         with:
           name: allure-report
           path: allure-report/
